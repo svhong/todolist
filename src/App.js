@@ -1,9 +1,17 @@
 import React from "react";
 
-function App(){
-    return(
-        <h1>List of things to do</h1>
-    )
+import Todoitem from "./components/Todoitem.js";
+
+
+function App() {
+  return (
+    <div className="todo-list">
+      <Todoitem />
+      <Todoitem />
+      <Todoitem />
+      <Todoitem />
+    </div>
+  );
 }
 
-export default App
+export default App;
